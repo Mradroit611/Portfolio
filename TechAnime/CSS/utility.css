@@ -1,0 +1,118 @@
+/* ------------------Logo name-------------------  */
+.logname{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+/* ----------------Hollywood & Bollywood Button ---------- */
+.hollywood{
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.holly{
+    margin-top: 9px;
+    color: white;
+}
+
+/* --------------------Bottom Navbar -------------------- */
+
+ /* Setting image size*/
+.icons img{
+    width: 20px;
+    height: 20px;
+}
+
+.options{
+    border-radius: 9px;
+    width: 117px;
+    gap: 4px;
+    display: flex;
+    background-color: rgb(114, 114, 114);
+    padding: 13px;
+    box-shadow: 1px 0px rgb(158, 158, 158);
+    justify-content: center;
+    cursor: pointer;
+}
+.options:hover{
+    background-color:rgb(107, 107, 107) ;
+}
+.option3{ 
+    width: 170px;
+}
+.iconame{
+    color: whitesmoke;
+    text-decoration: solid;
+    /* margin-top: 2px; */
+    font-size: 16px;
+}
+
+.options button{
+    background-color:transparent ;
+    border: none;
+}
+
+/*------------------------------------ Anime container  -------------------------------*/
+#animes{
+    width: 182px;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 51);
+    /* padding: 0px; */
+    height: 400px;
+    /* border: 2px solid red; */
+}
+.animeimage img{
+    height: 270px;
+    width: 182px;
+}
+.aboutanime{
+    /* border: 2px solid purple; */
+    height: 123px;
+}
+.anim{
+    /* padding-top: 0px; */
+    padding: 5px;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    text-align: center;
+    font-size: 25px;
+}
+.anim a{
+    color: white;
+    text-decoration: none;
+}
+.anim a:hover{
+    color: rgb(107, 107, 107);
+}
+.animeimage img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.animeimage img:hover{
+    opacity: 0.8;
+}
+
+/*------------------------ Page number bar  ---------------------*/
+.no{
+    background-color: rgb(107, 107, 107);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.no a{
+    text-decoration: none;
+    margin-top: 5px;
+    /* margin-top: 20px; */
+}
+
+.no p{
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.no:hover{
+    background-color: black;
+}
+
